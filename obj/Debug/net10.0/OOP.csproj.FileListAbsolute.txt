@@ -1,0 +1,14 @@
+C:\Users\User\CSProjeckts\OOP\bin\Debug\net10.0\OOP.exe
+C:\Users\User\CSProjeckts\OOP\bin\Debug\net10.0\OOP.deps.json
+C:\Users\User\CSProjeckts\OOP\bin\Debug\net10.0\OOP.runtimeconfig.json
+C:\Users\User\CSProjeckts\OOP\bin\Debug\net10.0\OOP.dll
+C:\Users\User\CSProjeckts\OOP\bin\Debug\net10.0\OOP.pdb
+C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\OOP.AssemblyInfoInputs.cache
+C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\OOP.AssemblyInfo.cs
+C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\OOP.csproj.CoreCompileInputs.cache
+C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\OOP.dll
+C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\refint\OOP.dll
+C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\OOP.pdb
+C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\OOP.genruntimeconfig.cache
+C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\ref\OOP.dll
