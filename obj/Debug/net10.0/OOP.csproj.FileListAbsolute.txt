@@ -12,3 +12,4 @@ C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\refint\OOP.dll
 C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\OOP.pdb
 C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\OOP.genruntimeconfig.cache
 C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\ref\OOP.dll
+C:\Users\User\CSProjeckts\OOP\obj\Debug\net10.0\OOP.sourcelink.json
