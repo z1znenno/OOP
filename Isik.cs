@@ -23,6 +23,15 @@ namespace OOP
 
         // Arvutatud omadus (ainult lugemiseks / getter)
         public int Vanus => DateTime.Now.Year - synniaasta;
+
+        public static int InimesteKoguarv = 0;
+
+        // Baasklassi konstruktor
+        public Isik(string nimi)
+        {
+            Nimi = nimi;
+            InimesteKoguarv++;
+        }
         // Tegevus ehk meetod
         public void Tervita()
         {

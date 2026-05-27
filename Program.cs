@@ -20,8 +20,8 @@ namespace OOP
             Random rnd = new Random();
             ITooline[] toolised = new ITooline[3]
             {
-                new Opilane(),
-                new Opetaja(),
+                new Opilane(string.Empty, 0, default(Oppevorm)),
+                new Opetaja(string.Empty, string.Empty, 0.0),
                 new UleOpilane()
             };
 
@@ -71,16 +71,12 @@ namespace OOP
                         break;
                     case Opilane:
 
-                        Opilane õpilane = new Opilane();
-                        õpilane.Nimi = õpilasNimed[rnd.Next(1, 5)];
+                        Opilane õpilane = new Opilane(õpilasNimed[rnd.Next(1, 5)], klassid[rnd.Next(1, 12)], vormid[rnd.Next(vormid.Length)]);
                         õpilane.Synniaasta = õpilasSünniaastad[rnd.Next(1, 5)];
                         õpilane.Kool = koolid[rnd.Next(1, 3)];
-                        õpilane.Klass = klassid[rnd.Next(1, 12)];
                         õpilane.Keskminehinne = rnd.NextDouble() * 5;
                         õpilane.Puudumised = puudumised[rnd.Next(1, 5)];
                         õpilane.SotsiaalAmet = rnd.Next(2) == 0; // random bool
-                        õpilane.Staatus = vormid[rnd.Next(vormid.Length)];
-
                         õpilane.Kirjelda();
                         õpilane.Õpi();
                         õpilane.ArvutaPalk();
@@ -92,12 +88,8 @@ namespace OOP
 
                     case Opetaja:
 
-                        Opetaja õpetaja = new Opetaja();
-                        õpetaja.Nimi = õpetajaNimed[rnd.Next(1, 5)];
+                        Opetaja õpetaja = new Opetaja(õpetajaNimed[rnd.Next(1, 5)], ained[rnd.Next(1, 5)], tunnitasud[rnd.Next(1, 5)]);
                         õpetaja.Synniaasta = õpetajaSünniaastad[rnd.Next(1, 5)];
-                        õpetaja.Aine = ained[rnd.Next(1, 5)];
-                        õpetaja.Tunnitasu = tunnitasud[rnd.Next(1, 5)];
-                        õpetaja.Tunnidkuus = tunnidKuus[rnd.Next(1, 5)];
                         palgasaajad.Add(õpetaja);
                         õpetaja.Kirjelda();
                         õpetaja.Opeta();

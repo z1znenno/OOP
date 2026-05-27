@@ -27,7 +27,7 @@ namespace OOP
             }
         }
 
-        public void OtsiNimeJargi(string nimi)
+        public void Otsi(string nimi)
         {
             bool leitud = false;
             Console.WriteLine($"\n--- OTSING: {nimi} ---");
@@ -45,6 +45,29 @@ namespace OOP
             {
                 Console.WriteLine("Isikut nimega " + nimi + " ei leitud.");
             }
+        }
+
+        public void Otsi(int sünniaasta)
+        {
+            bool leitud = false;
+            Console.WriteLine($"\n--- OTSING: Sündinud aastal {sünniaasta} ---");
+            foreach (var isik in inimesed)            {
+                if (isik.Synniaasta == sünniaasta)
+                {
+                    isik.Kirjelda();
+                    Console.WriteLine("------------------------------------------------");
+                    leitud = true;
+                }
+            }
+            if (!leitud)
+            {
+                Console.WriteLine("Isikut, kes on sündinud aastal " + sünniaasta + ", ei leitud.");
+            }
+        }
+
+        public void LisaInimene()
+        {
+            
         }
     }
 

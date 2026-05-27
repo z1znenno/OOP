@@ -19,7 +19,11 @@ namespace OOP
 
         public Oppevorm Staatus { get; set; } = Oppevorm.Päevane;
 
-      
+        public Opilane(string nimi, int klass, Oppevorm staatus) : base(nimi)
+        {
+            Klass = klass;
+            Staatus = staatus;
+        }
 
         public override void Kirjelda()
         {

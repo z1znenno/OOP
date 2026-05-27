@@ -12,7 +12,16 @@ namespace OOP
 
         public int Tunnidkuus { get; set; }
 
+        public int Klass { get; set; }
+        public Oppevorm Staatus { get; set; }
+
         public TooTyyp VäljamakseTüüp { get; set; } = TooTyyp.Palk;
+
+        public Opetaja(string nimi, string aine, double tunnitasu) : base(nimi)
+        {
+            Aine = aine;
+            Tunnitasu = tunnitasu;
+        }
 
         public override void Kirjelda()
         {
